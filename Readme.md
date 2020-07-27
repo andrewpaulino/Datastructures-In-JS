@@ -5,8 +5,8 @@ Javascript all the same. This is for personal practice only, and will
 try to do one a day, but atlas things come up or issues so I guess
 whenever it happens it happens.
 
-## Main Idea I'll be recreating popular Data Structures from LinkedList to Heaps or Binary Trees. I think it is important to know
-
+## Main Idea 
+I'll be recreating popular Data Structures from LinkedList to Heaps or Binary Trees. I think it is important to know
 them as it relates to the fundamentals of Computer Science.
 
 ## List Of Data Structures
@@ -24,8 +24,8 @@ them as it relates to the fundamentals of Computer Science.
 - [ ] Graph
 - [ ] Matrix
 
-### Why is _X_ Data Structure not on here? It's simple, I am not including every possible data structure but focusing on the
-
+### Why is _X_ Data Structure not on here? 
+It's simple, I am not including every possible data structure but focusing on the
 fundamentals I've noticed to be frequently used in technical
 interviews.
 
