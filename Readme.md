@@ -1,5 +1,5 @@
-# Data Structures In JS In this git repo, I will be recreating as many data structures as I can in Javascript (Node.js v12.18.3). I've
-
+# Data Structures In JS
+In this git repo, I will be recreating as many data structures as I can in Javascript (Node.js v12.18.3). I've
 done them in C++, but would like to see if I can recreate them in
 Javascript all the same. This is for personal practice only, and will
 try to do one a day, but atlas things come up or issues so I guess
