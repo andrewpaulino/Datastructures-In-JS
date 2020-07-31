@@ -48,6 +48,31 @@ class DoubleLinkedList {
     tailToBeRemoved = null;
   };
 
+  addToHead = (val) => {
+    const newNode = new Node();
+    newNode.setValue(val);
+    
+    if (this.length === 0) {
+      this.head = newNode;
+      this.tail = newNode;
+
+      this.head.prev = null;
+      this.tail.prev = null;
+      this.head.next = null;
+      this.tail.next = null;
+    } else {
+      let oldHead = this.head;
+
+      oldHead.prev = newNode;
+
+      newNode.prev = null;
+      newNode.next = oldHead;
+
+      this.head = newNode;
+    }
+    this.length += 1;
+  };
+
   push = (val) => {
     const newNode = new Node();
     newNode.setValue(val);
