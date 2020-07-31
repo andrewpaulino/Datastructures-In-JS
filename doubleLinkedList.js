@@ -18,6 +18,36 @@ class DoubleLinkedList {
     this.length = 0;
   }
 
+  getHead = () => {
+    return this.head.val;
+  };
+
+  getTail = () => {
+    return this.tail.val;
+  };
+
+  removeHead = () => {
+    let headToBeRemoved = this.head;
+    let newHead = this.head.next;
+
+    newHead.prev = null;
+
+    this.head = newHead;
+
+    headToBeRemoved = null;
+  };
+
+  removeTail = () => {
+    let tailToBeRemoved = this.tail;
+    let newTail = this.tail.prev;
+
+    newTail.next = null;
+
+    this.tail = newTail;
+
+    tailToBeRemoved = null;
+  };
+
   push = (val) => {
     const newNode = new Node();
     newNode.setValue(val);
@@ -66,13 +96,16 @@ class DoubleLinkedList {
 }
 
 //Driver Code;
-const linked_list = new DoubleLinkedList();
+// Uncomment to use stack and queues
+// const linked_list = new DoubleLinkedList();
 
-linked_list.push(1);
-linked_list.push(2);
-linked_list.push(3);
-linked_list.push(4);
+// linked_list.push(1);
+// linked_list.push(2);
+// linked_list.push(3);
+// linked_list.push(4);
 
-linked_list.remove(3);
+// linked_list.remove(3);
 
-linked_list.display();
+// linked_list.display();
+
+module.exports.DoubleLinkedList = DoubleLinkedList;
