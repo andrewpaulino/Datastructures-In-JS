@@ -12,12 +12,12 @@ them as it relates to the fundamentals of Computer Science.
 ## List Of Data Structures
 
 - [x] LinkedList
-- [ ] Double LinkedList
-- [ ] Circular LinkedList
-- [ ] Stacks
-- [ ] Queues
+- [x] Double LinkedList
+- [-] Circular LinkedList
+- [x] Stacks
+- [x] Queues
 - [ ] Priority Queues
-- [ ] Binary Tree
+- [x] Binary Tree
 - [ ] Binary Search Tree
 - [ ] Heaps
 - [ ] AVL Trees

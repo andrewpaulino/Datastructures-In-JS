@@ -40,10 +40,12 @@ class DoubleLinkedList {
   removeTail = () => {
     let tailToBeRemoved = this.tail;
     let newTail = this.tail.prev;
+  
+    if (newTail !== null) {
+      newTail.next = null;
 
-    newTail.next = null;
-
-    this.tail = newTail;
+      this.tail = newTail;
+    }
 
     tailToBeRemoved = null;
   };
@@ -51,7 +53,7 @@ class DoubleLinkedList {
   addToHead = (val) => {
     const newNode = new Node();
     newNode.setValue(val);
-    
+
     if (this.length === 0) {
       this.head = newNode;
       this.tail = newNode;
